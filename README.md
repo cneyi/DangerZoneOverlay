@@ -1,6 +1,8 @@
 # Danger Zone Overlay
 
-A BepInEx client mod for **SPT** (Single Player Tarkov / SPT-AKI) that visualizes map kill-zones as semi-transparent 3D volumes in-game.
+[English](README.md) | [简体中文](README.zh-CN.md)
+
+A BepInEx client mod for **SPT** (Single Player Tushonka / SPT-AKI) that visualizes map kill-zones as semi-transparent 3D volumes in-game.
 
 A modern rework + extension of the classic **ShowLandMines** mod, adapted to SPT 4.1.
 
@@ -40,6 +42,8 @@ The game assemblies are licensed and **not** committed to this repository. Point
 - `EscapeFromTarkov_Data\Managed\Assembly-CSharp.dll`
 - `EscapeFromTarkov_Data\Managed\UnityEngine.dll` (+ CoreModule / PhysicsModule / IMGUIModule / TextRenderingModule / JSONSerializeModule)
 - `BepInEx\core\BepInEx.dll`
+
+> Note: `EscapeFromTarkov_Data` is the actual game folder name (fixed path) and must not be renamed, or the build will break.
 
 ```
 dotnet build -c Release src/DangerZoneOverlay.csproj
