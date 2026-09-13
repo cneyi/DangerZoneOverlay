@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <AssemblyName>DangerZoneOverlay</AssemblyName>
+    <RootNamespace>DangerZoneOverlay</RootNamespace>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp" HintPath="E:\SPT\EscapeFromTarkov_Data\Managed\Assembly-CSharp.dll" Private="False" />
+    <Reference Include="BepInEx" HintPath="E:\SPT\BepInEx\core\BepInEx.dll" Private="False" />
+    <Reference Include="UnityEngine" HintPath="E:\SPT\EscapeFromTarkov_Data\Managed\UnityEngine.dll" Private="False" />
+    <Reference Include="UnityEngine.CoreModule" HintPath="E:\SPT\EscapeFromTarkov_Data\Managed\UnityEngine.CoreModule.dll" Private="False" />
+    <Reference Include="UnityEngine.PhysicsModule" HintPath="E:\SPT\EscapeFromTarkov_Data\Managed\UnityEngine.PhysicsModule.dll" Private="False" />
+    <Reference Include="UnityEngine.IMGUIModule" HintPath="E:\SPT\EscapeFromTarkov_Data\Managed\UnityEngine.IMGUIModule.dll" Private="False" />
+    <Reference Include="UnityEngine.TextRenderingModule" HintPath="E:\SPT\EscapeFromTarkov_Data\Managed\UnityEngine.TextRenderingModule.dll" Private="False" />
+    <Reference Include="UnityEngine.JSONSerializeModule" HintPath="E:\SPT\EscapeFromTarkov_Data\Managed\UnityEngine.JSONSerializeModule.dll" Private="False" />
+  </ItemGroup>
+</Project>

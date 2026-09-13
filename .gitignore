@@ -1,0 +1,12 @@
+# build output
+src/bin/
+src/obj/
+
+# local install layout / release archives
+package/
+*.rar
+
+# IDE
+.vs/
+*.suo
+*.user
